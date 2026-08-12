@@ -3,10 +3,11 @@ import sys # bibliotecas do sistema operacional
 import os
 
 # variáveis de ambiente: configurar no TERMINAL
-HOST = os.getenv("DATABASE_HOST", "localhost") 
-USER = os.getenv("DATABASE_USER", "root") 
-PASSWORD = os.getenv("DATABASE_PASSWORD", "root") 
-PORT = os.getenv("DATABASE_PORT", "3306")
+
+HOST = os.getenv("DATABASE_HOST", "mysql-ifcbluhyl-hvescovi-ifcblu.l.aivencloud.com") 
+USER = os.getenv("DATABASE_USER", "") 
+PASSWORD = os.getenv("DATABASE_PASSWORD", "") 
+PORT = os.getenv("DATABASE_PORT", "12960")
 
 # nomes das tabelas: ALTERAR o sufixo
 TABELA_PESSOAS = "tbl_pessoas_hylson"
